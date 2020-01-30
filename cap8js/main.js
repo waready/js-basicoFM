@@ -1,9 +1,13 @@
-//  var nombre = "antony";
+var dias = ["Lunes", "martes", "miercoles", "jueves", "viernes", "sabado","domingo"];
 
-//  alert(nombre);
-var nombre;
-nombre=prompt("ingresa tu nombre");
-edad=prompt("ingresa tu edad");
-//alert(nombre);
-//console.log(nombre);
-document.write(" de " +nombre + " edad "+ edad);
+
+var i = 0;
+while( i <= 10 ){
+    document.write(i + "<br>");
+    i = i+1;    
+}
+
+do{
+    // siempre se ejecutara este siclo
+}
+while(Condicion);

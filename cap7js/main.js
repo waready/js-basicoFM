@@ -1,9 +1,8 @@
-//  var nombre = "antony";
+// for ( i=0;i<=10000;i++){
+//     document.write("Ou Yeah!"+ "<br>");
+// }
 
-//  alert(nombre);
-var nombre;
-nombre=prompt("ingresa tu nombre");
-edad=prompt("ingresa tu edad");
-//alert(nombre);
-//console.log(nombre);
-document.write(" de " +nombre + " edad "+ edad);
+var dias = ["Lunes", "martes", "miercoles", "jueves", "viernes", "sabado","domingo"];
+for(i=0;i<=dias.length - 1; i++){
+    document.write(dias[i] + "<br>");
+}

@@ -1,9 +1,25 @@
-//  var nombre = "antony";
+// function saludo(nombre){
+//     document.write("hola como estas hoy "+ nombre);
+// }
+// saludo("pedro");
 
-//  alert(nombre);
-var nombre;
-nombre=prompt("ingresa tu nombre");
-edad=prompt("ingresa tu edad");
-//alert(nombre);
-//console.log(nombre);
-document.write(" de " +nombre + " edad "+ edad);
+ var suma = function(numero1, numero2){
+    var numero1 = numero1;
+    var numero2 = numero2;
+
+    return numero1+ numero2;
+}
+
+document.write(suma(9,10));
+document.write("<br>");
+document.write(suma(10,15));
+
+var numeroMayor = function (valor1 , valor2){
+    if(valor1>valor2){
+        return valor1;
+    
+    }else{
+        return valor2;
+    }
+}
+document.write("el numero mayor es. " + numeroMayor(15, 78));

@@ -1,9 +1,8 @@
-//  var nombre = "antony";
+var suma = function(numero1, numero2){
+    var numero1 = parseInt(document.getElementById("numero1").value);
+    var numero2 = parseInt(document.getElementById("numero2").value);
 
-//  alert(nombre);
-var nombre;
-nombre=prompt("ingresa tu nombre");
-edad=prompt("ingresa tu edad");
-//alert(nombre);
-//console.log(nombre);
-document.write(" de " +nombre + " edad "+ edad);
+    var resultado = numero1 +numero2;
+
+    return resultado;
+}
