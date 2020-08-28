@@ -1,9 +1,18 @@
-//  var nombre = "antony";
+//global
+var varaibleGlobal = "Esta es global";
 
-//  alert(nombre);
-var nombre;
-nombre=prompt("ingresa tu nombre");
-edad=prompt("ingresa tu edad");
-//alert(nombre);
-//console.log(nombre);
-document.write(" de " +nombre + " edad "+ edad);
+var miFuncion = function(){
+    //variableLocal = "se volvio Global";
+    var variableLocal = "esta es local";
+    alert (varaibleGlobal);
+
+    varaibleGlobal = "esta es global modificada";
+    alert(varaibleGlobal);
+    var funcionLocal = function(){
+        var variableLocal ="esta variable local, dento de funcionlocal";
+        alert(variableLocal);
+    }
+}
+miFuncion();
+
+//local 
